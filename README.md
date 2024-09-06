@@ -93,6 +93,21 @@ Here are some visual previews of the Tweet Clone App:
 
 ---
 
+
+## 🤝 Contributing
+
+We welcome contributions from community! Here's how to get started:
+
+1. Fork this repository.
+2. Clone your fork: `https://github.com/arifqayoom39/Saafir.git`
+3. Create a branch: `git checkout -b feature/your-feature-name`
+4. Make your changes.
+5. Commit your changes: `git commit -m "Brief description of changes"`
+6. Push to your branch: `git push origin feature/your-feature-name`
+7. Submit a pull request.
+
+
+
 ## 🤝 Feedback
 
 We would love to hear your thoughts and suggestions for improvements. Feel free to reach out at **arifqayoom39@gmail.com**.
