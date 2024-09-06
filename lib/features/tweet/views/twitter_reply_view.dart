@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:twitter_clone/common/common.dart';
@@ -135,7 +137,7 @@ class tweetReplyScreen extends ConsumerWidget {
                       Navigator.pop(context);
                     }
                   },
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     hintText: 'tweet your reply...',
                     border: InputBorder.none,
                   ),
@@ -144,7 +146,7 @@ class tweetReplyScreen extends ConsumerWidget {
             ),
             const SizedBox(width: 8),
             Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 shape: BoxShape.circle,
                 color: Pallete.blueColor,
               ),

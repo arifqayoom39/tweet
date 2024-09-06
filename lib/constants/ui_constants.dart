@@ -12,6 +12,7 @@ class UIConstants {
       automaticallyImplyLeading: false,
       title: SvgPicture.asset(
         AssetsConstants.tweetLogo,
+        // ignore: deprecated_member_use
         color: Pallete.blueColor,
         height: 30,
       ),

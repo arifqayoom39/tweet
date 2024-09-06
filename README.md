@@ -77,6 +77,14 @@ To set up and run the Tweet Clone app locally, follow these steps:
 
 ---
 
+## 📥 Download the APK
+
+We are currently in the final stages of testing the **Saafir Bus Ticketing App** before its official launch on the Play Store. You can download the APK directly from the following sources:
+
+- **Google Drive:** [Download APK](https://drive.google.com/file/d/17sFkf7q11LDHxh4Z7T-yTAIaEnReya1P/view?usp=drivesdk)
+- **Testing Version:** We are highly testing this app to ensure it meets the highest quality standards before launch.
+
+
 ## 💡 Inspiration
 
 This project draws inspiration from Rivaan Ranawat's Tweet Clone series. We’ve built upon those ideas to create a fully functional, scalable app.

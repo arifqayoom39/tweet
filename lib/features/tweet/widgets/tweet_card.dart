@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:any_link_preview/any_link_preview.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
@@ -9,9 +11,7 @@ import 'package:twitter_clone/constants/assets_constants.dart';
 import 'package:twitter_clone/core/enums/tweet_type_enum.dart';
 import 'package:twitter_clone/features/auth/controller/auth_controller.dart';
 import 'package:twitter_clone/features/tweet/controller/tweet_controller.dart';
-
 import 'package:twitter_clone/features/tweet/views/twitter_reply_view.dart';
-import 'package:twitter_clone/features/tweet/widgets/carousel_image.dart';
 import 'package:twitter_clone/features/tweet/widgets/hashtag_text.dart';
 import 'package:twitter_clone/features/tweet/widgets/tweet_icon_button.dart';
 import 'package:twitter_clone/features/user_profile/view/user_profile_view.dart';
@@ -19,6 +19,7 @@ import 'package:twitter_clone/models/tweet_model.dart';
 import 'package:twitter_clone/theme/pallete.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
+// ignore: camel_case_types
 class tweetCard extends ConsumerWidget {
   final Tweet tweet;
   const tweetCard({
@@ -197,7 +198,7 @@ class tweetCard extends ConsumerWidget {
                                     padding: const EdgeInsets.only(top: 8.0, right: 20.0),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8),
-                                      child: Container(
+                                      child: SizedBox(
                                         width: double.infinity,
                                         height: 180,
                                         child: CachedNetworkImage(

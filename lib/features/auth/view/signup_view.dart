@@ -1,9 +1,10 @@
+// ignore_for_file: empty_catches
+
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:twitter_clone/common/common.dart';
 import 'package:twitter_clone/common/loading_page.dart';
-import 'package:twitter_clone/constants/constants.dart';
 import 'package:twitter_clone/features/auth/controller/auth_controller.dart';
 import 'package:twitter_clone/features/auth/view/login_view.dart';
 import 'package:twitter_clone/features/auth/widgets/auth_field.dart';
@@ -34,7 +35,6 @@ class _SignUpViewState extends ConsumerState<SignUpView> {
     final email = emailController.text;
     final password = passwordController.text;
 
-    print('Attempting to sign up with email: $email and password: $password');
 
     try {
       ref.read(authControllerProvider.notifier).signUp(
@@ -42,9 +42,7 @@ class _SignUpViewState extends ConsumerState<SignUpView> {
             password: password,
             context: context,
           );
-      print('Sign up successful!');
     } catch (e) {
-      print('Error during sign up: $e');
     }
   }
 
@@ -73,8 +71,9 @@ class _SignUpViewState extends ConsumerState<SignUpView> {
                           color: Pallete.blueColor.withOpacity(0.1),
                           borderRadius: BorderRadius.circular(75),
                         ),
+                        // ignore: prefer_const_constructors
                         child: Center(
-                          child: Icon(
+                          child: const Icon(
                             Icons.bolt_rounded,
                             color: Pallete.blueColor,
                             size: 70,

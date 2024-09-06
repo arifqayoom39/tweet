@@ -132,7 +132,7 @@ class _CreatetweetScreenState extends ConsumerState<CreatetweetScreen> {
             ),
       bottomNavigationBar: Container(
         padding: const EdgeInsets.symmetric(vertical: 8.0),
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           border: Border(
             top: BorderSide(
               color: Pallete.greyColor,

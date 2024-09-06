@@ -2,8 +2,6 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:twitter_clone/common/loading_page.dart';
-import 'package:twitter_clone/common/rounded_small_button.dart';
-import 'package:twitter_clone/constants/constants.dart';
 import 'package:twitter_clone/features/auth/controller/auth_controller.dart';
 import 'package:twitter_clone/features/auth/view/signup_view.dart';
 import 'package:twitter_clone/features/auth/widgets/auth_field.dart';
@@ -63,7 +61,7 @@ class _LoginViewState extends ConsumerState<LoginView> {
                           color: Pallete.blueColor.withOpacity(0.1),
                           borderRadius: BorderRadius.circular(75),
                         ),
-                        child: Center(
+                        child: const Center(
                           child: Icon(
                             Icons.login_rounded,
                             color: Pallete.blueColor,
