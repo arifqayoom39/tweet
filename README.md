@@ -89,7 +89,7 @@ Here are some visual previews of the Tweet Clone App:
 
 | Sign Up Page | Tweet Feed | Profile Page |
 |--------------|------------|--------------|
-| ![Sign Up](assets/screenshots/signup.png) | ![Tweet Feed](assets/screenshots/feed.png) | ![Profile Page](assets/screenshots/profile.png) |
+| ![Sign Up](https://github.com/arifqayoom39/tweet/blob/main/signup.jpeg) | ![Tweet Feed](https://github.com/arifqayoom39/tweet/blob/main/tweet.jpeg) | ![Profile Page](https://github.com/arifqayoom39/tweet/blob/main/profile.jpeg) |
 
 ---
 
