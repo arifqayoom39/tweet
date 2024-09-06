@@ -1,9 +1,7 @@
-```md
-# Tweet Clone App
+## Tweet Clone App
 
 Source Code for a Full-Stack Twitter-like Application - Fully Compatible with Android & iOS!
 
----
 
 ## 🚀 Features
 
@@ -34,14 +32,14 @@ Source Code for a Full-Stack Twitter-like Application - Fully Compatible with An
   - Display Verified (Blue Tick) Users
   - Notifications Tab (Get Notified when Someone Replies, Follows, Likes, or Retweets)
 
----
+
 
 ## 🛠️ Tech Stack
 
 - **Backend**: Appwrite (Auth, Storage, Database, Realtime)
 - **Frontend**: Flutter (Mobile App), Riverpod (State Management)
   
----
+
 
 ## 🔧 Installation
 
@@ -98,7 +96,3 @@ Here are some visual previews of the Tweet Clone App:
 ## 🤝 Feedback
 
 We would love to hear your thoughts and suggestions for improvements. Feel free to reach out at **arifqayoom39@gmail.com**.
-
----
-
-```
